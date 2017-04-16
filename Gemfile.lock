@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.1)
+    docker-api (1.33.4)
+      excon (>= 0.38.0)
+      json
+    excon (0.55.0)
+    json (2.0.4)
+    method_source (0.8.2)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    slop (3.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  docker-api
+  pry
+
+BUNDLED WITH
+   1.13.6
